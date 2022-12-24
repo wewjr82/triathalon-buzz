@@ -1,0 +1,31 @@
+.footer{
+    padding: 10px;
+    background-color: #8bc34a;
+    color: white;
+}
+
+.grid{
+    display: flex;
+   margin-top: 20px;
+ 
+    
+}
+
+a{
+    padding: 10px;
+    margin-top: 0px;
+   
+   
+}
+
+@media only screen 
+   and (max-width : 200px) {
+   .footer{
+     width: 259.64px;
+   }
+
+   .grid{
+    flex-direction: column;
+   }
+}
+

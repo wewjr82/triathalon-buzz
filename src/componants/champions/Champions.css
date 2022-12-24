@@ -1,0 +1,130 @@
+.champion-section {
+  padding: 0 20px;
+}
+
+.champ-title {
+  padding-top: 45px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+
+
+.dots {
+  width: 5px;
+  height: 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 2px;
+  margin-right: 20px;
+  
+}
+
+.champ-profile{
+  padding: 0 5px;
+}
+
+.champ-pics {
+  display: flex;
+  padding: 35px 150px;
+  justify-content: center;
+}
+
+.circle-pics {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin: 0px auto;
+  width: 80px;
+}
+
+.name {
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-top: 20px;
+}
+
+.title {
+  color: #00acee;
+  font-size: 88%;
+}
+
+.story {
+  text-align: center;
+  font-size: 100%;
+  
+  
+  
+}
+
+.dot {
+  width: 5px;
+  height: 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 2px;
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .champion-section {
+    padding: 0 5px;
+  }
+
+  .champ-title {
+    padding-top: 20px;
+  }
+  .champ-pics {
+    /* display: flex; */
+    padding: 30px 10px;
+  }
+
+  .story{
+    padding: 0 5px;
+    
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .champ-title {
+    font-weight: bolder;
+    color: black;
+  }
+
+  .champion-section {
+    background-color: rgb(83, 82, 82);
+  }
+
+  .champ-pics {
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  .name {
+    color: white;
+  }
+
+  .title {
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+
+  .story {
+    color: white;
+    padding-bottom: 20px;
+  }
+  .dot {
+    
+    display: none;
+  }
+}
+
+@media only screen 
+   and (max-width : 200px) {
+   .champion-section{
+     width: 259.64px;
+   }
+}

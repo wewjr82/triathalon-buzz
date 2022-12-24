@@ -1,0 +1,73 @@
+header {
+  background-image: url(../../static/headerpic.jpg);
+ 
+  /* height: 750px; */
+ 
+  background-size: cover;
+  border-top: 1px solid black;
+  filter: grayscale(0.7);
+  flex-basis: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  -webkit-filter: grayscale(0.7);
+  background-repeat: no-repeat;
+background-position: center center;
+/* background-attachment: fixed; */
+ 
+
+  
+}
+
+
+
+.icons {
+  width: 10%;
+ 
+  margin: 500px auto 0;
+  
+  
+  
+}
+
+
+/* media queries */
+
+/* tablet */
+@media only screen and (max-width: 768px) {
+  .icons {
+    width: 10%;
+  }
+}
+
+/* smart phone */
+@media only screen 
+   and (max-width : 320px) {
+ header{
+   background-size: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+        background-repeat: no-repeat;
+        height: auto;
+        
+        
+ }
+}
+
+/* small phones */
+@media only screen and (max-width: 200px) {
+  header{
+   background-size: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+        background-repeat: no-repeat;
+        height: auto;
+        
+        
+ }
+
+ 
+}
