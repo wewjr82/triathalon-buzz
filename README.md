@@ -1,8 +1,19 @@
-triathalonbuzz
-Access your Triathlon Buzz membership and stay in the know with the most recent triathlon news, training, and nutrition advice.
-Link to project: https://triathalonbuzz.netlify.app/
-How It's Made:
-Tech used: React.js
+<h1>Triathalon Buzz</h1>
+<p>Triathlon Buzz is a static website that I created using React.js when I was first learning the framework.</p>
+
+Link to project: https://triathalonbuzz.netlify.app
+![buzz](https://github.com/wewjr82/triathalonbuzz/assets/68568420/b54a9e1a-2b19-4084-9a33-da88227a8170)
+
+<h2>How It's Made:</h2>
+
+
+<p>Tech used: React.js & CSS3</p>
+
+<p>I developed the Triathlon Buzz website using React.js and CSS3. </p>
+
+<h2>Lessons Learned:</h2>
+<p>My knowledge of React.js grew significantly while developing the Triathlon Buzz website. I learned how to structure code for easy understanding and maintenance, and how to use CSS to style the UI.</p>
+
 
 
 
