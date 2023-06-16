@@ -1,8 +1,8 @@
 header {
   background-image: url(../../static/headerpic.jpg);
- 
+
   /* height: 750px; */
- 
+
   background-size: cover;
   border-top: 1px solid black;
   filter: grayscale(0.7);
@@ -11,63 +11,28 @@ header {
   flex-shrink: 0;
   -webkit-filter: grayscale(0.7);
   background-repeat: no-repeat;
-background-position: center center;
-/* background-attachment: fixed; */
- 
-
-  
+  background-position: center center;
+  /* background-attachment: fixed; */
 }
-
-
 
 .icons {
   width: 10%;
- 
+
   margin: 500px auto 0;
-  
-  
-  
 }
 
+/* MOBILE */
 
-/* media queries */
+@media screen and (max-width: 768px) {
+  header {
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
 
-/* tablet */
-@media only screen and (max-width: 768px) {
-  .icons {
-    width: 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
   }
-}
-
-/* smart phone */
-@media only screen 
-   and (max-width : 320px) {
- header{
-   background-size: 100%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin-left: auto;
-        margin-right: auto;
-        background-repeat: no-repeat;
-        height: auto;
-        
-        
- }
-}
-
-/* small phones */
-@media only screen and (max-width: 200px) {
-  header{
-   background-size: 100%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin-left: auto;
-        margin-right: auto;
-        background-repeat: no-repeat;
-        height: auto;
-        
-        
- }
-
- 
 }

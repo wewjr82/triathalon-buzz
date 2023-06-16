@@ -8,7 +8,6 @@
   justify-content: center;
   align-items: center;
   -webkit-filter: grayscale(1);
-  
 }
 
 .tweet {
@@ -18,7 +17,6 @@
   color: white;
   background: rgba(0, 0, 0, 0.6);
   font-size: 100%;
-  
 }
 
 .birdy {
@@ -45,29 +43,22 @@
   padding: 10px 10px 0 10px;
 }
 
-.tweet-time{
+.tweet-time {
   /* color: #00acee; */
   font-weight: 300;
   font-size: 75%;
-  
-
 }
 
-@media only screen and (max-width: 768px) {
-  .tweet-section {
-  /* background-image: url(../../static/tony-pham-9s5-focFrSE-unsplash.jpg); */
-  width: 100%;
-  height: 300px;
-  background-size: cover;
-  
-  
-}
-}
+/* MOBILE */
 
-@media only screen 
-   and (max-width : 320px) {
- .tweet-section {
-  display: none;
-  
-}
+@media screen and (max-width: 768px) {
+  .tweet {
+    width: 100%;
+
+    
+    
+    color: white;
+    
+    font-size: 100%;
+  }
 }

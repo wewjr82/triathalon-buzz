@@ -176,3 +176,35 @@
 .content {
   padding: 40px 20px;
 }
+
+@media screen and (max-width: 768px) {
+  topnav {
+    margin-top: 0;
+    height: 40px;
+    padding: 10px 10px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: none;
+  }
+
+  .logo {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-size: 30px;
+    font-style:normal;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .logo span {
+    color: #8bc34a;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: #000000;
+    font-size: 40px;
+  }
+}

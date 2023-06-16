@@ -17,14 +17,14 @@
 
 /* media queries */
 /* TABLET */
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   .we-container {
     padding: 20px;
   }
-}
+} */
 
 /* smart phone */
-@media only screen and (max-width: 320px) {
+/* @media only screen and (max-width: 320px) {
   .we-container {
     flex-direction: column;
     padding: 20px 20px 10px 30px;
@@ -33,14 +33,33 @@
     padding: 10px;
     text-align: center;
   }
-}
+} */
 
-@media only screen and (max-width: 200px) {
+/* @media only screen and (max-width: 200px) {
   .we-container{
     width: 259.64px;
   }
 
   .we-info {
     display: none;
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  .we-container {
+    display: block;
+    padding: 0 10px;
+    justify-content: flex-start;
+  }
+
+  .we-heading {
+    font-weight: normal;
+    font-size: 125%;
+  }
+
+  .we-info {
+    text-align: center;
+    padding: 0;
+    line-height: 1.25;
   }
 }
