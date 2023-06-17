@@ -73,6 +73,8 @@
    
 
   "build": "react-scripts build",
+
+   "build:watch": "react-scripts build --watch",
  
 
    
