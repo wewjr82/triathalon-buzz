@@ -1,4 +1,4 @@
-<h1>Triathalon Buzz</h1>
+<h1>Triathlon Buzz</h1>
 <p>Triathlon Buzz is a static website that I created using React.js when I was first learning the framework.</p>
 
 Link to project: https://triathalonbuzz.netlify.app/
