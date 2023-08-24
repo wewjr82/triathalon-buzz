@@ -1,10 +1,11 @@
 <h1>Triathlon Buzz</h1>
 <p>Triathlon Buzz is a static website that I created using React.js when I was first learning the framework.</p>
 
-Link to project: https://triathalonbuzz.netlify.app/
-![buzz](https://github.com/wewjr82/triathlon-buzz/assets/68568420/36c302bf-2648-40c8-b89e-2e7f3fbd4994)
+Link to project: https://triathlonbuzz.netlify.app/
+![buzz](https://github.com/wewjr82/triathlon-buzz/assets/68568420/e741c2ad-652c-47e5-9c0a-0b9ed9f056f2)
 
 <h2>How It's Made:</h2>
+
 
 
 
