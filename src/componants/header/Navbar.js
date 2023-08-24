@@ -25,7 +25,7 @@ const Navbar = () => {
       <div className="topnav">
         {/* Your Logo/Brand here */}
         <div className="logo">
-          TRIATHALON<span>BUZZ</span>
+          TRIATHLON<span>BUZZ</span>
         </div>
 
         {/* Desktop Menu, which only appears on large screens */}
