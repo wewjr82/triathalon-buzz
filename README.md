@@ -2,9 +2,10 @@
 <p>Triathlon Buzz is a static website that I created using React.js when I was first learning the framework.</p>
 
 Link to project: https://triathalonbuzz.netlify.app/
-![buzz](https://github.com/wewjr82/triathalonbuzz/assets/68568420/b54a9e1a-2b19-4084-9a33-da88227a8170)
+![buzz](https://github.com/wewjr82/triathlon-buzz/assets/68568420/abfc3da0-4465-445c-aa4f-174e114fcd3a)
 
 <h2>How It's Made:</h2>
+
 
 
 <p>Tech used: React.js & CSS3</p>
